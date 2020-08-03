@@ -1,0 +1,23 @@
+.header{
+    height: var(--header-height);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--header-color);
+    z-index: var(--z-index-front);
+}
+
+.headerMain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerImage{
+    height: 3rem;
+    margin-left: 1rem;
+}
+

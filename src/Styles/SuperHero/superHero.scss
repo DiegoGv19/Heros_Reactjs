@@ -1,0 +1,28 @@
+.heroImage{
+    height: calc(100vh - var(--header-height));
+    width: 100%;
+    margin-top: var(--header-height);
+}
+
+.containerGrid{
+    width: 80%;
+    margin: 4rem auto 0;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    column-gap: 2rem;
+
+}
+
+.containerInformation{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem;
+}
+
+
+.imageSuperHero{
+
+    width: 100%;
+}

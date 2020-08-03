@@ -1,0 +1,14 @@
+.Banner{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-color: var(--first-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}

@@ -2,14 +2,13 @@ import React from 'react'
 import PropTypes  from 'prop-types'
 import {Link} from 'react-router-dom'
 
-const Card = ({id,name,nickname,image}) =>(
+const Card = ({id,name,image}) =>(
     <div className="card">
         <Link to= {`/superhero/${id}`}>
             <img className="cardImage" src={image} alt={name}/>
         </Link>
         <div className="cardInformation">
-            <h2>{nickname} </h2>
-            <h3>{name}</h3>
+            <h2>{name}</h2>
         </div>
     </div>
 
@@ -19,13 +18,11 @@ const Card = ({id,name,nickname,image}) =>(
 Card.propTyps = {
     id: PropTypes.number,
     name: PropTypes.string,
-    nickname:PropTypes.string,
     image: PropTypes.string
 }
 Card.defaultProps = {
     id: 0,
     name : "no tiene nombre",
-    nickname : "no tiene sobre nombre",
     image: "https://image.flaticon.com/icons/png/512/16/16480.png"
 }
 
